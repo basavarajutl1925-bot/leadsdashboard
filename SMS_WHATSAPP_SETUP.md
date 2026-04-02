@@ -12,7 +12,7 @@ Your Twilio is set up but the **Auth Token is a placeholder**. That's why messag
 Visit: https://www.twilio.com/console
 
 ### Step 2: Find Your Auth Credentials
-- Look for **Account SID** (should be: `AC42454bfe6e584df0ef9eef3191876006` ✅)
+- Look for **Account SID** (format: `ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx` ✅)
 - Look for **Auth Token** (the long string under your Account SID)
 - Copy the Auth Token
 
@@ -136,7 +136,7 @@ Look for Twilio status in the response.
 
 ```env
 # Required
-TWILIO_ACCOUNT_SID=AC42454bfe6e584df0ef9eef3191876006
+TWILIO_ACCOUNT_SID=ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 TWILIO_AUTH_TOKEN=your_real_token_here  ← UPDATE THIS!
 
 # Optional (defaults provided)

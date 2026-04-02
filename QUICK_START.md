@@ -28,7 +28,7 @@ npm install
 cat > .env << EOF
 PORT=5000
 MONGODB_URI=mongodb://localhost:27017/leads_db
-TWILIO_ACCOUNT_SID=AC42454bfe6e584df0ef9eef3191876006
+TWILIO_ACCOUNT_SID=ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 TWILIO_AUTH_TOKEN=your_auth_token_here
 TWILIO_PHONE_NUMBER=whatsapp:+14155238886
 NODE_ENV=development

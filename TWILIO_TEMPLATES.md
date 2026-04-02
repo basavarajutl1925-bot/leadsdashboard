@@ -3,7 +3,7 @@
 ## ✅ You Have Everything!
 
 From your Twilio code, I can see you have:
-- ✅ Account SID: `AC42454bfe6e584df0ef9eef3191876006`
+- ✅ Account SID: `ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`
 - ✅ Template SID: `HXb5b62575e6e4ff6129ad7c8efe1f983e`
 - ✅ Your phone: `whatsapp:+919008983960`
 - ❌ Auth Token: Still need to get from Twilio console
@@ -163,7 +163,7 @@ After you add real Auth Token and submit a lead:
 
 Your Twilio code:
 ```javascript
-const accountSid = 'AC42454bfe6e584df0ef9eef3191876006';
+const accountSid = 'ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 const authToken = '[AuthToken]';
 const client = require('twilio')(accountSid, authToken);
 
